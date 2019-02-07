@@ -4,3 +4,33 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/Xblad3Mstr/JAAM-Code.git
 git push -u origin master
+<!doctype html>
+<html>
+	<style>
+	.black-background{
+		background-color: black;
+	}
+	.white-text{
+		color: white;
+	}
+	
+	</style>
+<head>
+	
+<meta charset="utf-8">
+<title>Mikenna Fuit</title>
+
+</head>
+
+<body>
+	<div class="black-background">
+	<h1 class="black-background white-text"> Mikenna Fuit</h1>
+	<img src="C:\Users\miken\OneDrive\Documents\GIMM\GIMM 300\bio_photo.jpg"/>
+	<h2 class="white-text"> Who is she?</h2>
+	<p class="white-text">Like many she’s been gaming since a young age and has loved most moments of it. Due to this love, she’s been knowing what she’s wanted to do since middle school. She has plenty of art experience having done it all through high school. Along with that, she has a little experience within Blender, Unity and some experience with a few programming languages.</p>
+		
+	<img src="C:\Users\miken\OneDrive\Documents\GIMM\GIMM 300\AlienHead.png"/>
+	</div>
+</body>
+
+</html>
