@@ -1,0 +1,98 @@
+/* Alex's styles */
+.alexMainNav
+{
+    background: white;
+    height:2em;
+    margin: 0px 0px 0px 0px;
+}
+.alexCenterPic
+{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.alexPage
+{
+    background: #ffc9c9;
+    width: 95%;
+    border-radius: 10%;
+    margin: 0 auto;
+    text-align: center;
+}
+.alexHeader
+{
+    padding-top: 2em;
+}
+.alexProfilePic
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 7px solid goldenrod;
+}
+.alexGamePics
+{
+    width: 90%;
+    height: 80%;
+    border-radius: 13%;
+    margin-top: 1em;
+}
+.jazzVideo
+{
+    width: 90%;
+    height: 80%;
+    padding: 1em 0 1em 0;
+}
+.jazzText
+{
+    padding: 0em 1em 1em 1em;
+    font-family: 'Raleway', sans-serif;
+}
+.jazzName
+{
+    font-family: 'Merienda', cursive;
+}
+
+@media screen and (min-width: 1024px)
+{
+    .jazzGameGifDesktop
+    {
+        float:left;
+        padding-left: 1em;
+        margin-top: 2em;
+        width: 45%;
+    }
+    .jazzGamePicDesktop
+    {
+        float:right;
+        padding-right: 1em;
+        margin-top: 2em;
+        width: 45%;
+    }
+    .jazzPicDiv
+    {
+        height: 350px;
+    }
+    .jazzTextLeft
+    {
+        width: 40%;
+        float: right;
+    }
+    .jazzTextRight
+    {
+        width: 40%;
+        float: left;
+    }
+    .jazzTextDesktop
+    {
+        padding-top: 4em;
+    }
+    .jazzBio
+    {
+        width:50%;
+        padding-left: 25%;
+    }
+}
+
+/* End of Jasmine's styles */
