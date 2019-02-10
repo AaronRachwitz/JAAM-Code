@@ -33,7 +33,7 @@
 }
 
 .main-body {
-  background-image: url('WebsiteImages/stars.gif');
+  background-image: url('AaronWebsiteImages/stars.gif');
 }
 
 .main-p {
@@ -246,7 +246,7 @@ width: 50%;
 /* Aaron's styles */
 
 .aaron-body {
-background-image: url('WebsiteImages/triangles.jpg');
+background-image: url('AaronWebsiteImages/triangles.jpg');
 repeat: on;
 }
 
@@ -281,12 +281,6 @@ color: #B3281E;
 font-family: Arial;
 font-size: 20px;
 padding: 15px;
-}
-
-#aaron-borderimage1 {
-border: 10px solid transparent;
-padding: 15px;
-border-image: url('celtic.png') 30 round;
 }
 
 .aaron-border-one {
@@ -387,7 +381,7 @@ height: 450px;
 /* Mikenna's styles */
 
 .mikenna-black-background{
-  background-image: url('IMG_0042.jpg');
+  background-image: url('images/IMG_0042.jpg');
 }
 .mikenna-white-text{
   color: white;
