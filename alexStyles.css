@@ -14,85 +14,85 @@
 }
 .alexPage
 {
-    background: #ffc9c9;
+    background: orange;
     width: 95%;
-    border-radius: 10%;
     margin: 0 auto;
     text-align: center;
 }
 .alexHeader
 {
-    padding-top: 2em;
+    padding-top: 0em;
 }
 .alexProfilePic
 {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 7px solid goldenrod;
+    position: absolute;
+    right: 0px;
+
+    width: 1536px;
+    height: 84px;
+    padding-right: px;
 }
 .alexGamePics
 {
     width: 90%;
     height: 80%;
-    border-radius: 13%;
     margin-top: 1em;
 }
-.jazzVideo
+.alexVideo
 {
     width: 90%;
     height: 80%;
     padding: 1em 0 1em 0;
 }
-.jazzText
+.alexText
 {
     padding: 0em 1em 1em 1em;
     font-family: 'Raleway', sans-serif;
 }
-.jazzName
+.alexName
 {
-    font-family: 'Merienda', cursive;
+    font-family: 'Consolas', sans-serif;
 }
 
 @media screen and (min-width: 1024px)
 {
-    .jazzGameGifDesktop
+    .alexGameGifDesktop
     {
         float:left;
         padding-left: 1em;
         margin-top: 2em;
         width: 45%;
     }
-    .jazzGamePicDesktop
+    .alexGamePicDesktop
     {
         float:right;
         padding-right: 1em;
         margin-top: 2em;
         width: 45%;
     }
-    .jazzPicDiv
+    .alexPicDiv
     {
         height: 350px;
     }
-    .jazzTextLeft
+    .alexTextLeft
     {
         width: 40%;
         float: right;
     }
-    .jazzTextRight
+    .alexTextRight
     {
         width: 40%;
         float: left;
     }
-    .jazzTextDesktop
+    .alexTextDesktop
     {
         padding-top: 4em;
     }
-    .jazzBio
+    .alexBio
     {
         width:50%;
         padding-left: 25%;
     }
 }
 
-/* End of Jasmine's styles */
+/* End of Alex's styles */
