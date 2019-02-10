@@ -7,7 +7,7 @@ git push -u origin master
 /* Start of Mikenna's code */
 <!doctype html>
 <html>
-	
+
 	<style>
 	.black-background{
 		background-image: url('IMG_0042.jpg');
@@ -48,10 +48,10 @@ git push -u origin master
 			background-color: pink;
 		}
 
-	
+
 	</style>
 <head>
-	
+
 <meta charset="utf-8">
 <title>Mikenna Fuit</title>
 
@@ -65,7 +65,7 @@ git push -u origin master
 		<br>
 	<h2 class="white-text font-use"> Who is she?</h2>
 	<p class="white-text surround font-use">Like many, she’s been gaming since a young age and has loved every moment of it. Due to this love, she’s known what she’s wanted to do since middle school. She has plenty of art experience having done it all through high school. She also has a little experience within Blender, Unity and with various programming languages.</p>
-	
+
 		<h3 class="white-text font-use"> Projects </h3>
 		<br>
 		<img src="Brighter_Day(Village)_Final.jpg" class="image-size center">
@@ -73,7 +73,7 @@ git push -u origin master
 		<br>
 		<img src="AlienHead.png" class="image-size center">
 		<h4 class="white-text center font-use"> A free project made using Blender. Currently a work in progress.</h4>
-		
+
 	</div>
 	<div class="center">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/NV0xFaak8SU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
@@ -82,7 +82,7 @@ git push -u origin master
 	<h4 class="white-text font-use">A painting made at a family event using acrylic paint on canvas.</h4>
 	<img src="IMG_9573.jpg" class="image-size center">
 	<h4 class="white-text font-use">A school project created using acrylic paint on canvas.</h4>
-	
+
 </body>
 
 </html>

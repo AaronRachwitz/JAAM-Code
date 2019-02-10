@@ -1,4 +1,150 @@
+/* Main styles */
+
+.main-h1 {
+  font-size: 50px;
+  font-family: 'Lucida Console', Monaco, monospace;;
+  color: rgba(249, 128, 183, 1);
+  margin: auto;
+  background: linear-gradient(To right, rgba(249, 128, 183, 0), rgba(249, 128, 183, 1))
+}
+
+.main-h2 {
+  font-size: 50px;
+  font-family: 'Lucida Console', Monaco, monospace;;
+  color: rgba(246, 68, 55, 1);
+  margin: auto;
+  background: linear-gradient(To right, rgba(246, 68, 55, 0), rgba(246, 68, 55, 1))
+}
+
+.main-h3 {
+  font-size: 50px;
+  font-family: 'Lucida Console', Monaco, monospace;;
+  color: rgba(239, 108, 26, 1);
+  margin: auto;
+  background: linear-gradient(To right, rgba(239, 108, 26, 0), rgba(239, 108, 26, 1))
+}
+
+.main-h4 {
+  font-size: 50px;
+  font-family: 'Lucida Console', Monaco, monospace;;
+  color: rgba(108, 215, 15, 1);
+  margin: auto;
+  background: linear-gradient(To right, rgba(108, 215, 15, 0), rgba(108, 215, 15, 1))
+}
+
+.main-body {
+  background-image: url('WebsiteImages/stars.gif');
+}
+
+.main-p {
+  font-size: 30px;
+  font-family: "Century Gothic", sans-serif;
+  color: white;
+}
+
+.main-ol {
+  font-size: 30px;
+  font-family: "Century Gothic", sans-serif;
+  color: white;
+}
+
+.main-ul {
+  font-size: 30px;
+  font-family: "Century Gothic", sans-serif;
+  color: white;
+}
+
+.j-text {
+  font-size: 100px;
+  font-family: 'Lucida Console', Monaco, monospace;
+  color: rgba(249, 128, 183, 1);
+}
+
+.j-border {
+  border-color: rgba(249, 128, 183, 1);
+  border-width: 5px;
+  border-style: solid;
+}
+
+.a1-text {
+  font-size: 100px;
+  font-family: 'Lucida Console', Monaco, monospace;
+  color: rgba(246, 68, 55, 1);
+}
+
+.a1-border {
+  border-color: rgba(246, 68, 55, 1);
+  border-width: 5px;
+  border-style: solid;
+}
+
+.a2-text {
+  font-size: 100px;
+  font-family: 'Lucida Console', Monaco, monospace;
+  color: rgba(239, 108, 26, 1);
+}
+
+.a2-border {
+  border-color: rgba(239, 108, 26, 1);
+  border-width: 5px;
+  border-style: solid;
+}
+
+.m-text {
+  font-size: 100px;
+  font-family: 'Lucida Console', Monaco, monospace;
+  color: rgba(108, 215, 15, 1);
+}
+
+.m-border {
+  border-color: rgba(108, 215, 15, 1);
+  border-width: 5px;
+  border-style: solid;
+}
+
+.main-p-background {
+  background-color: black;
+  opacity: 0.5;
+}
+
+.main-image-format {
+height: 350px;
+width: 250px;
+}
+
+.main-image-scale {
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+.main-image-scale:hover {
+  transform: scale(1.15);
+}
+
+.main-container {
+  position: relative;
+  text-align: center;
+}
+
+.main-grid-container-one {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  grid-column-gap: 10px;
+}
+
+.main-center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+/* End of Main styles */
+
 /* Jasmine's styles */
+
 .jazzMainNav
 {
     background: white;
@@ -96,3 +242,187 @@
 }
 
 /* End of Jasmine's styles */
+
+/* Aaron's styles */
+
+.aaron-body {
+background-image: url('WebsiteImages/triangles.jpg');
+repeat: on;
+}
+
+.aaron-h1 {
+color: #A4131D;
+text-align: center;
+font-size: 60px;
+font-family: "Impact", Charcoal, sans-serif;
+}
+
+.aaron-h2 {
+color: #A4131D;
+font-size: 40px;
+font-family: "Impact", Charcoal, sans-serif;
+padding: 15px;
+}
+
+.aaron-h3 {
+color: #C21CC4;
+font-family: Arial;
+font-size: 20px;
+text-align: center;
+}
+
+.aaron-h4 {
+color: #A4131D;
+font-size: 30px;
+}
+
+.aaron-p {
+color: #B3281E;
+font-family: Arial;
+font-size: 20px;
+padding: 15px;
+}
+
+#aaron-borderimage1 {
+border: 10px solid transparent;
+padding: 15px;
+border-image: url('celtic.png') 30 round;
+}
+
+.aaron-border-one {
+border-color: #F450F7;
+border-width: 10px;
+border-style: solid;
+padding: 20px;
+}
+
+.aaron-border-two {
+border-color: #F64437;
+border-width: 10px;
+border-style: solid;
+padding: 15px;
+}
+
+.aaron-background-image-one {
+background: linear-gradient(rgba(122,215,240,1), rgba(219,243,250,0));
+}
+
+.aaron-background-image-two {
+background: linear-gradient(rgba(122,215,240,1), rgba(219,243,250,0));
+}
+
+.aaron-background-image-twoish {
+background: linear-gradient(rgba(122,215,240,1), rgba(255,194,97,1));
+}
+
+.aaron-background-image-three {
+background: linear-gradient(rgba(255,194,97,0), rgba(255,194,97,1));
+}
+
+.aaron-background-image-four {
+background: linear-gradient(rgba(122,215,240,1), rgba(219,243,250,0), rgba(122,215,240,1));
+}
+
+.aaron-center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+.aaron-image-one-border {
+border-color: #F450F7;
+border-width: 7px;
+border-style: solid;
+border-radius: 50%;
+}
+
+.aaron-comic-format {
+width: 300px;
+height: 400px;
+}
+
+.aaron-print-format {
+width: 400px;
+height: 680px;
+}
+
+.aaron-art-format {
+width: 300px;
+height: 450px;
+}
+
+.aaron-art-format2 {
+width: 380px;
+height: 450px;
+}
+
+.aaron-grid-container-one {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  grid-column-gap: 20px;
+	grid-row-gap: 20px;
+}
+
+.aaron-grid-container-two {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  grid-column-gap: 20px;
+}
+
+.aaron-grid-container-three {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+
+/* End of Aaron's styles */
+
+/* Mikenna's styles */
+
+.mikenna-black-background{
+  background-image: url('IMG_0042.jpg');
+}
+.mikenna-white-text{
+  color: white;
+  text-align: center;
+}
+  .mikenna-image-size{
+    width:auto;
+    height:auto;
+    max-width:2016px;
+    max-height:1512px;
+  }
+  .mikenna-img-size2{
+    width:auto;
+    height:auto;
+    max-width:306px;
+    max-height:408px;
+  }
+  .mikenna-font-use{
+    font-family: sans-serif;
+  }
+  .mikenna-changeimg{
+    transform: rotate(90deg);
+  }
+  .mikenna-center{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+  }
+  .mikenna-surround{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: pink;
+  }
+
+  /* End of Mikenna's styles */
