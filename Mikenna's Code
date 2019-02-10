@@ -4,15 +4,50 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/Xblad3Mstr/JAAM-Code.git
 git push -u origin master
+/* Start of Mikenna's code */
 <!doctype html>
 <html>
+	
 	<style>
 	.black-background{
-		background-color: black;
+		background-image: url('IMG_0042.jpg');
 	}
 	.white-text{
 		color: white;
+		text-align: center;
 	}
+		.image-size{
+			width:auto;
+			height:auto;
+			max-width:2016px;
+			max-height:1512px;
+		}
+		.img-size2{
+			width:auto;
+			height:auto;
+			max-width:306px;
+			max-height:408px;
+		}
+		.font-use{
+			font-family: sans-serif;
+		}
+		.changeimg{
+			transform: rotate(90deg);
+		}
+		.center{
+			display: block;
+			margin-left:auto;
+			margin-right:auto;
+			width:50%;
+		}
+		.surround{
+			padding-top: 20px;
+			padding-bottom: 20px;
+			padding-left: 40px;
+			padding-right: 40px;
+			background-color: pink;
+		}
+
 	
 	</style>
 <head>
@@ -22,15 +57,33 @@ git push -u origin master
 
 </head>
 
-<body>
-	<div class="black-background">
-	<h1 class="black-background white-text"> Mikenna Fuit</h1>
-	<img src="C:\Users\miken\OneDrive\Documents\GIMM\GIMM 300\bio_photo.jpg"/>
-	<h2 class="white-text"> Who is she?</h2>
-	<p class="white-text">Like many she’s been gaming since a young age and has loved most moments of it. Due to this love, she’s been knowing what she’s wanted to do since middle school. She has plenty of art experience having done it all through high school. Along with that, she has a little experience within Blender, Unity and some experience with a few programming languages.</p>
+<body class=black-background>
+	<div>
+	<h1 class="white-text surround font-use"> Mikenna Fuit</h1>
+		<br>
+	<img src="bio_photo.jpg" class="img-size2 changeimg center">
+		<br>
+	<h2 class="white-text font-use"> Who is she?</h2>
+	<p class="white-text surround font-use">Like many, she’s been gaming since a young age and has loved every moment of it. Due to this love, she’s known what she’s wanted to do since middle school. She has plenty of art experience having done it all through high school. She also has a little experience within Blender, Unity and with various programming languages.</p>
+	
+		<h3 class="white-text font-use"> Projects </h3>
+		<br>
+		<img src="Brighter_Day(Village)_Final.jpg" class="image-size center">
+		<h4 class="white-text center font-use"> This was a school project. The assignment was to take an image of a local place and make it post-apocalyptic. This image was made using Photoshop.</h4>
+		<br>
+		<img src="AlienHead.png" class="image-size center">
+		<h4 class="white-text center font-use"> A free project made using Blender. Currently a work in progress.</h4>
 		
-	<img src="C:\Users\miken\OneDrive\Documents\GIMM\GIMM 300\AlienHead.png"/>
 	</div>
+	<div class="center">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/NV0xFaak8SU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+	<h4 class="white-text center font-use"> A school project where they had to make a trailer for a game made during their first year. Video was made using Adobe Premiere.</h4>
+	<img src="IMG_9571.jpg" class="image-size center">
+	<h4 class="white-text font-use">A painting made at a family event using acrylic paint on canvas.</h4>
+	<img src="IMG_9573.jpg" class="image-size center">
+	<h4 class="white-text font-use">A school project created using acrylic paint on canvas.</h4>
+	
 </body>
 
 </html>
+/* End of Mikenna's code */
