@@ -420,3 +420,120 @@ height: 450px;
   }
 
   /* End of Mikenna's styles */
+
+  /* Alex's styles */
+  .alexMainNav
+  {
+      background: #776e68;
+      height:2em;
+      margin: 0px 0px 0px 0px;
+  }
+  .alexCenterPic
+  {
+      display:block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+  }
+  .alexPage
+  {
+      background: #776e68;
+  }
+
+  .alexBox
+  {
+      background: orange;
+      width: 95%;
+      margin: 0 auto;
+      text-align: center;
+      border: 32px solid #776e68;
+  }
+  .alexHeader
+  {
+      padding-top: 3em;
+  }
+  .alexProfilePic
+  {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+
+      width: 1920px;
+      height: 105px;
+  }
+  .alexGamePics
+  {
+      width: 90%;
+      height: 80%;
+      margin-top: 1em;
+  }
+  .alexVideo
+  {
+      width: 90%;
+      height: 80%;
+      padding: 1em 0 1em 0;
+  }
+  .alexText
+  {
+      padding: 0em 1em 1em 1em;
+      font-family: 'Raleway', sans-serif;
+  }
+
+  .alexBold
+  {
+      padding: 0em 1em 0em 1em;
+      font-size: 1.5em;
+      font-family: 'Consolas', sans-serif;
+      font-weight: bold;
+  }
+
+  .alexName
+  {
+      font-family: 'Consolas', sans-serif;
+  }
+
+  @media screen and (min-width: 1024px)
+  {
+      .alexGameGifDesktop
+      {
+          padding-right: 1em;
+          margin-top: 2em;
+          width: 896px;
+          height: 504px;
+      }
+      .alexGamePicDesktop
+      {
+          padding-right: 1em;
+          margin-top: 2em;
+          width: 896px;
+          height: 504px;
+      }
+      .alexPicDiv
+      {
+          height: 824px;
+      }
+      .alexTextLeft
+      {
+          /*width: 65%;
+          padding-left: 1em;*/
+          margin-top: 2em;
+
+      }
+      .alexTextRight
+      {
+          /*width: 65%;
+          padding-right: 1em*/;
+          margin-top: 2em;
+      }
+      .alexTextDesktop
+      {
+          padding-top: 4em;
+      }
+      .alexBio
+      {
+          width:50%;
+          padding-left: 25%;
+      }
+  }
+
+  /* End of Alex's styles */
