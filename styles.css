@@ -425,7 +425,7 @@ height: 450px;
   .alexMainNav
   {
       background: #776e68;
-      height:2em;
+      height: 2em;
       margin: 0px 0px 0px 0px;
   }
   .alexCenterPic
@@ -455,7 +455,7 @@ height: 450px;
   .alexProfilePic
   {
       position: absolute;
-      top: 0px;
+      /*top: 20px;*/
       right: 0px;
 
       width: 1920px;
