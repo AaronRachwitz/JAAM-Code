@@ -147,9 +147,15 @@ width: 50%;
 
 .jazzMainNav
 {
-    background: white;
-    height:2em;
-    margin: 0px 0px 0px 0px;
+  background: #d89c9c;
+}
+.jazzNavText
+{
+  color: white;
+}
+.jazzBody
+{
+  background-image: linear-gradient(#ffc9c9,#af7575);
 }
 .jazzCenterPic
 {
@@ -160,9 +166,8 @@ width: 50%;
 }
 .jazzPage
 {
-    background: #ffc9c9;
     width: 95%;
-    border-radius: 10%;
+    border-radius: 5%;
     margin: 0 auto;
     text-align: center;
 }
@@ -176,6 +181,7 @@ width: 50%;
     height: 200px;
     border-radius: 50%;
     border: 7px solid goldenrod;
+    margin: 20px;
 }
 .jazzGamePics
 {
@@ -237,7 +243,7 @@ width: 50%;
     .jazzBio
     {
         width:50%;
-        padding-left: 25%;
+        margin: auto;
     }
 }
 
@@ -522,7 +528,7 @@ height: 450px;
       .alexTextRight
       {
           /*width: 65%;
-          padding-right: 1em*/;
+          padding-right: 1em*/
           margin-top: 2em;
       }
       .alexTextDesktop
