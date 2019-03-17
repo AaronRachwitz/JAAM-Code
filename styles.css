@@ -434,6 +434,10 @@ height: 450px;
       height: 2em;
       margin: 0px 0px 0px 0px;
   }
+  .alexNavText
+  {
+    color: orange;
+  }
   .alexCenterPic
   {
       display:block;
@@ -461,7 +465,7 @@ height: 450px;
   .alexProfilePic
   {
       position: absolute;
-      /*top: 20px;*/
+      top: 0px;
       right: 0px;
 
       width: 1920px;

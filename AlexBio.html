@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+      <link rel="stylesheet" href="styles.css">
+      </link>
         <meta charset="UTF-8">
+        <link rel="icon" href="images/favicon_alex.png">
         <title>Alex Richardson - Bio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -12,26 +15,32 @@
 
     <body class="alexPage">
 
-        <ul class="nav fixed-top">
+        <ul class="nav fixed-top alexMainNav">
+          <li>
+            <a class="navbar-brand" href="#">
+                <!-- <img src="images/favicon_alex.png" width="30" height="30" class="d-inline-block align-top" alt=""> -->
+                <img src="images/alexbanner.png" alt="Picture of Alex" class="alexProfilePic center">
+              </a>
+            </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link alexNavText" href="index.html">Home</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true">Team</a>
+              <a class="nav-link dropdown-toggle alexNavText" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Team</a>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="JasmineBio.html">Jasmine</a>
+                <a class="dropdown-item active" href="JasmineBio.html">Jasmine</a>
                 <a class="dropdown-item" href="Aaron's Code.html">Aaron</a>
-                <a class="dropdown-item active" href="AlexBio.html">Alex</a>
+                <a class="dropdown-item" href="AlexBio.html">Alex</a>
                 <a class="dropdown-item" href="Mikenna's Code.html">Mikenna</a>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="AppPage.html">Our App</a>
+              <a class="nav-link alexNavText" href="AppPage.html">Our App</a>
             </li>
           </ul>
 
         <header>
-            <img src="images/alexbanner.png" alt="Picture of Alex" class="alexProfilePic center">
+            <!-- <img src="images/alexbanner.png" alt="Picture of Alex" class="alexProfilePic center"> -->
         </header>
 
         <header class="alexBox alexHeader">
