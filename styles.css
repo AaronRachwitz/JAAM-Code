@@ -81,11 +81,11 @@
 .a2-text {
   font-size: 100px;
   font-family: 'Lucida Console', Monaco, monospace;
-  color: rgba(239, 108, 26, 1);
+  color: rgba(255, 165, 0, 1);
 }
 
 .a2-border {
-  border-color: rgba(239, 108, 26, 1);
+  border-color: rgba(255, 165, 0, 1);
   border-width: 5px;
   border-style: solid;
 }
@@ -456,13 +456,16 @@ height: 450px;
       width: 95%;
       margin: 0 auto;
       text-align: center;
-      border: 32px solid #776e68;
+			border: 32px solid #776e68;
+      /* border: 32px solid #918681; */
+			padding-bottom: 0em;
   }
   .alexHeader
   {
       padding-top: 3em;
+      border-top: 32px solid #776e68;
   }
-  .alexProfilePic
+  .alexBannerPic
   {
       position: absolute;
       top: 0px;
@@ -471,6 +474,12 @@ height: 450px;
       width: 1920px;
       height: 105px;
   }
+	.alexProfilePic
+	{
+	    width: 20%;
+	    height: 20%;
+	    margin-bottom: 20px;
+	}
   .alexGamePics
   {
       width: 90%;
@@ -481,18 +490,18 @@ height: 450px;
   {
       width: 90%;
       height: 80%;
-      padding: 1em 0 1em 0;
+      /* padding: 1em 0 1em 0; */
   }
   .alexText
   {
       padding: 0em 1em 1em 1em;
-      font-family: 'Raleway', sans-serif;
+      font-family: 'Courier', sans-serif;
   }
 
   .alexBold
   {
       padding: 0em 1em 0em 1em;
-      font-size: 1.5em;
+      font-size: 1.2em;
       font-family: 'Consolas', sans-serif;
       font-weight: bold;
   }
@@ -527,6 +536,7 @@ height: 450px;
           /*width: 65%;
           padding-left: 1em;*/
           margin-top: 2em;
+					margin-bottom: 2em;
 
       }
       .alexTextRight
@@ -534,6 +544,7 @@ height: 450px;
           /*width: 65%;
           padding-right: 1em*/
           margin-top: 2em;
+					margin-bottom: 2em;
       }
       .alexTextDesktop
       {
@@ -541,8 +552,9 @@ height: 450px;
       }
       .alexBio
       {
-          width:50%;
-          padding-left: 25%;
+          text-align: center;
+          padding-left: 15%;
+          padding-right: 15%;
       }
   }
 
