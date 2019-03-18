@@ -1,5 +1,17 @@
 /* Main styles */
 
+.main-navbar {
+  background: #303a4b;
+}
+
+.main-navbar-text {
+  color: #dbdbdb;
+}
+
+.main-navbar-text:hover{
+  color: #919191;
+}
+
 .main-h1 {
   font-size: 50px;
   font-family: 'Lucida Console', Monaco, monospace;;
@@ -251,6 +263,18 @@ width: 50%;
 
 /* Aaron's styles */
 
+.aaron-navbar {
+  background: #F64437;
+}
+
+.aaron-navbar-text {
+  color: white;
+}
+
+.aaron-navbar-text:hover {
+  color: orange;
+}
+
 .aaron-body {
 background-image: url('AaronWebsiteImages/triangles.jpg');
 repeat: on;
@@ -328,6 +352,15 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 width: 50%;
+}
+
+.aaron-video {
+  width: 375px;
+  height: 250px;
+}
+
+.aaron-video:hover {
+  transform: scale(1.5);
 }
 
 .aaron-image-one-border {
