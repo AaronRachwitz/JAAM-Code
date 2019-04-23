@@ -1,16 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      </link>
       <link rel="stylesheet" href="styles.css">
       </link>
         <meta charset="UTF-8">
-        <title>Our App</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="images/main_favicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="mapTut/maps/maps.css" type='text/css'>
+        <title>Complimentary</title>
     </head>
-    <body>
-        <ul class="nav">
+    <body class="app-body" style="padding: 10px">
+        <ul class="nav fixed-top main-navbar">
+          <li>
+            <a class="navbar-brand" href="#">
+              <img src="images/main_favicon.png" width="30" height="30" class="d-inline-block align-top" alt="favicon">
+            </a>
+          </li>
             <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
             </li>
@@ -26,7 +35,50 @@
             <a class="nav-link active" href="AppPage.html">Our App</a>
             </li>
         </ul>
-        <h1>App Page Coming Soon</h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <h1 class="app-h1">Complimentary</h1>
+        <br>
+        <br>
+        <div id="map" class="map-center"></div>
+
+
+        <!-- FireBase scripts -->
+    <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDzNXZlXrXvailcAKHBQRJDSfVJXP7vcpM",
+    authDomain: "maps-d44a5.firebaseapp.com",
+    databaseURL: "https://maps-d44a5.firebaseio.com",
+    projectId: "maps-d44a5",
+    storageBucket: "maps-d44a5.appspot.com",
+    messagingSenderId: "804864968066"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="mapTut/maps/FirebaseController.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="mapTut/maps/maps.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXMMo8fzzOX5d5w4gVSd3aYSg9Zy8ooLM&callback=initMap" async defer></script>
+        <br>
+        <br>
+        <div>
+          <h1 class="main-h1"> About the App </h1>
+          <p class="main-p"> INFO HERE </p>
+        </div>
+        <div>
+          <h2 class="main-h2"> Contributions </h2>
+          <p class="main-p"> Here maybe we can list what we all did for the project </p>
+        </div>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

@@ -14,7 +14,7 @@
 
 .main-h1 {
   font-size: 50px;
-  font-family: 'Lucida Console', Monaco, monospace;;
+  font-family: 'Lucida Console', Monaco, monospace;
   color: rgba(249, 128, 183, 1);
   margin: auto;
   background: linear-gradient(To right, rgba(249, 128, 183, 0), rgba(249, 128, 183, 1))
@@ -154,6 +154,19 @@ width: 50%;
 }
 
 /* End of Main styles */
+
+/* App Page styles */
+.app-body {
+  background-image: url('AaronWebsiteImages/stars.gif');
+}
+
+.app-h1 {
+  font-size: 100px;
+  font-family: 'Lucida Console', Monaco, monospace;
+  color: white;
+  text-align: center;
+}
+/* End of App Page styles */
 
 /* Jasmine's styles */
 
