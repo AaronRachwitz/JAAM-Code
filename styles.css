@@ -166,6 +166,72 @@ width: 50%;
   color: white;
   text-align: center;
 }
+
+.app-h2 {
+  font-size: 70px;
+  font-family: 'Lucida Console', Monaco, monospace;
+  color: white;
+  text-align: center;
+}
+
+.app-p {
+  font-size: 20px;
+  color: white;
+}
+
+.app-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #99CCFF;
+}
+
+.app-grid {
+  color: white;
+  padding: 15px;
+  font-size: 3rem;
+  text-align: center;
+  margin: center;
+}
+
+.app-header {
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+}
+
+.app-myBestCompliment {
+  grid-column: 1 / 4;
+  grid-row: 3 / 5;
+}
+
+.app-justComplimented {
+  grid-column: 1 / 4;
+  grid-row: 6 / 7;
+}
+
+.app-complimentsToday {
+  grid-column: 1 / 2;
+  grid-row: 8 / 10;
+}
+
+.app-complimentsThisWeek {
+  grid-column: 3 / 4;
+  grid-row: 8 / 10;
+}
+
+.app-bestComplimentReceived {
+  grid-column: 1 / 4;
+  grid-row: 11 / 13;
+}
+
+.app-map {
+  grid-column: 1 / 4;
+  grid-row: 14 / 20;
+}
 /* End of App Page styles */
 
 /* Jasmine's styles */
